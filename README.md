@@ -1,31 +1,3 @@
+![WhatsApp Image 2023-12-15 at 20 56 16_1e7434b5](https://github.com/Tanzim-bot/Letter-Pattern/assets/147836543/e0dd0579-df81-4524-a96e-4c3017ffd719)
 
-
-
-
-#include <iostream>
-using namespace std;
-int main() 
-{
-	//Will Create an array of characters 'A' through 'G'.
-   
-	char letter [7] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G' };
-
-	//This outer loop illustrates through each row of the pattern(7 rows).
-
-	for (int a = 0; a < 7; a++)
-	{
-		// This loop adds leading spaces before the letters in each row.
-	   // The number of spaces decreases as we move down the rows.
-		for (int b = 0; b < 6 - a; b++)
-		{
-			cout << " ";
-		}
-		for (int c = 0; c <= a; c++)
-		{
-			cout << letter[a];
-		}
-		cout << endl;
-	}
-
-    return 0;
 
